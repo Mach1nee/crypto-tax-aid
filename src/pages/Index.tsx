@@ -141,6 +141,8 @@ const Index = () => {
       <footer className="border-t border-border/50 py-8">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
           <p>© 2024 CryptoTax. Simplifique seus impostos de criptomoedas.</p>
+          <p>Feito com ❤️ no Brasil.</p>
+          <p>By: Santos</p>
         </div>
       </footer>
     </div>

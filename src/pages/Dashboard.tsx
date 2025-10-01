@@ -109,7 +109,7 @@ const Dashboard = () => {
         <div className="space-y-2">
           <h2 className="text-3xl font-bold">Dashboard</h2>
           <p className="text-muted-foreground">
-            Bem-vindo de volta, {user?.email}
+            Bem-vindo de volta, {user?.ownerName}
           </p>
         </div>
 
@@ -185,6 +185,13 @@ const Dashboard = () => {
         onOpenChange={setShowAddWallet}
         userId={user?.id}
       />
+      <footer className="border-t border-border/50 py-8">
+        <div className="container mx-auto px-4 text-center text-muted-foreground">
+          <p>© 2024 CryptoTax. Simplifique seus impostos de criptomoedas.</p>
+          <p>Feito com ❤️ no Brasil.</p>
+          <p>By: Santos - Precisa de ajuda? Entre em contato! <a href="https://wa.me/5581985822897" style={{ color: "green", fontWeight: "bold" }}>WhatsApp</a></p>
+        </div>
+      </footer>
     </div>
   );
 };
